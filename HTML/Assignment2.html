@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+<style>
+    h1{
+
+        background-color: aqua;
+        border: solid red  1px;
+    }
+    tr{
+        background-color: antiquewhite;
+    }
+    p{
+        width: 50%;
+        height: 50%;
+        border: solid black 2px;
+    }
+    li{
+        list-style: none ; 
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+    <h1>Hotel Bill</h1>
+    <ul>
+        <li><b>
+            Type Of Stay
+        </li></b>
+        <li>
+            <select id="x3" class="form-control"  >
+                <option >Select </option>
+                <option >Economy</option>
+                <option > Business </option>
+                <option >Delux</option>
+            </select>
+        </li>
+        <li><b>
+            Number Of People
+        </li></b>
+        <li>
+            <input id="x1" type="text" class="form-control" placeholder="123">
+        </li>
+        <li><b>
+            Number Of Days
+        </li></b>
+        <li>
+            <input id="x2" class="form-control" type="text" placeholder="123">
+        </li>
+         <br>
+
+        <li>
+            <button class="btn btn-primary" onclick="myFunction()">Calculate</button>
+
+        </li><br>
+        
+    </ul>
+    <li><b>Bill Amount</b> </li>
+   <p id="result" >
+
+   </p>
+
+
+</div>
+
+
+<script src="Assignment2.js">
+</script>
+
+  
+</body>
+</html>
